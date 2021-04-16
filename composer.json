@@ -1,0 +1,19 @@
+{
+  "name": "princebo/http",
+  "description": "http client",
+  "authors": [
+    {
+      "name": "boge",
+      "email": "football.prince.yan@gmail.com"
+    }
+  ],
+ "require": {
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "princebo\\httpclient\\": ""
+    }
+  }
+}
+
